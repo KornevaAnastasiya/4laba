@@ -1,0 +1,1 @@
+PS D:\институт\сети и телекомуникации\4lab> Get-ChildItem C:\Windows\ | Sort-Object Length | Where-Object Length -gt 10000 |Select-Object Name,Length | tee 6task.html
